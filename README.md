@@ -4,7 +4,7 @@
 
 • This methodology was used to detect anomalies in brain scans, teeth scans.
 
-• Leveraged MATLAB, initialized the control points and the model shaped the snake-like closed form (solving internal & external functions) to create the boundary on the object.
+• Leveraged MATLAB, initialized the control points and the model shaped the snake-like closed form (solving internal & external functions) to create an object boundary.
 
 ## Results :
 
