@@ -29,13 +29,6 @@ cxy = conv2(I,mask5,'same');
 %disp (cx);
 %disp (cy);
 
-%for i = 1:row
-%    for j= 1:col
-        
-%        Eterm(i,j) = (cyy(i,j)*cx(i,j)*cx(i,j) -2 *cxy(i,j)*cx(i,j)*cy(i,j) + cxx(i,j)*cy(i,j)*cy(i,j))/((1+cx(i,j)*cx(i,j) + cy(i,j)*cy(i,j))^1.5);
-    
-%    end
-%end
 
 Eterm = (cyy.*(cx.^2) - 2*(cxy.*cx.*cy) + cxx.*(cy.^2)) ./ ((1 + (cx.^2) + (cy.^2)).^(3/2));
 
