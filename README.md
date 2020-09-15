@@ -1,6 +1,6 @@
 # Interactive Active Contours using MATLAB
 
-• Traditional method involved using Active Contours Model (Snakes by Kass). It used internal and external energy functions to find a boundary surrounding the object in focus. 
+• Traditional method involved using Active Contours Model (Snakes by Kass). It utilizes internal and external energy functions to find a boundary surrounding the object in focus. 
 
 • This methodology was used to detect anomalies in brain scans, teeth scans.
 
